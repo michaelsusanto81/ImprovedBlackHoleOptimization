@@ -114,9 +114,9 @@ class BlackHole:
 
 # example uses 2 features (location) [Two Dimensional-Space example]
 # the space's dimension is defined by the length of min_values_loc and max_values_loc array
-num_stars = 1000
-min_values_loc = [0,0,0,0,0]
-max_values_loc = [10,10,10,10,10]
+num_stars = 100
+min_values_loc = [0,0]
+max_values_loc = [10,10]
 max_iter = 1000
 ibh = BlackHole(num_stars, min_values_loc, max_values_loc, max_iter)
 best_star = ibh.run()
