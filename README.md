@@ -13,5 +13,6 @@ git clone https://github.com/michaelsusanto81/ImprovedBlackHoleOptimization
 
 - Run the code
 ```
+python BlackHole.py
 python ImprovedBlackHole.py
 ```

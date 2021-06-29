@@ -159,7 +159,7 @@ ibh = ImprovedBlackHole(num_stars, min_values_loc, max_values_loc, max_iter)
 best_star = ibh.run()
 
 # Result
-print("Maximum Optimization")
+print("Improved Black Hole Algorithm: Maximum Optimization")
 print("Max Location: %s" % (max_values_loc))
 print("Best Star Location: %s" % (best_star.location))
 print("Best Star Fitness Value: %.2f" % (best_star.get_fitval()))
