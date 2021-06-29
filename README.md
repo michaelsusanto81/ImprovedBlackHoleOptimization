@@ -13,5 +13,5 @@ git clone https://github.com/michaelsusanto81/ImprovedBlackHoleOptimization
 
 - Run the code
 ```
-python ibh.py
+python ImprovedBlackHole.py
 ```
